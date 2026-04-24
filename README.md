@@ -73,8 +73,6 @@ Simulated sources (`app_reviews.json`, `support_tickets.json`, `chat_logs.json`)
 }
 ```
 
-````
-
 ### 2. Message Queue (RabbitMQ)
 
 - Decouples producers and consumers.
@@ -171,13 +169,13 @@ CREATE TABLE feedback_insights (
 
 ```bash
 # Consumer
-npx ts-node consumer/index.ts
+npx ts-node-dev consumer/index.ts
 
 # Producer
-npx ts-node producer/index.ts
+npx ts-node-dev producer/index.ts
 
 # API
-npx ts-node api/index.ts
+npx ts-node-dev api/index.ts
 ```
 
 ### 4. Test API
@@ -231,8 +229,3 @@ This project demonstrates proficiency in:
 ## 👤 Me
 
 Built as a system design and backend engineering project to demonstrate real-world distributed system thinking.
-
-```
-
-```
-````
