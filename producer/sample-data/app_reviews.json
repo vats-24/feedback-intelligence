@@ -1,0 +1,14 @@
+[
+    {
+      "reviewId": "r1",
+      "reviewText": "App is very slow and laggy",
+      "user": "user_1",
+      "createdAt": "2026-04-20T10:00:00Z"
+    },
+    {
+      "reviewId": "r2",
+      "reviewText": "Great UI but crashes sometimes",
+      "user": "user_2",
+      "createdAt": "2026-04-20T11:00:00Z"
+    }
+  ]

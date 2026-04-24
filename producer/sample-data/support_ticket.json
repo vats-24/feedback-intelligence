@@ -1,0 +1,8 @@
+[
+    {
+      "ticketId": "t1",
+      "description": "Payment failed multiple times",
+      "customerId": "user_3",
+      "timestamp": "2026-04-20T12:00:00Z"
+    }
+  ]
